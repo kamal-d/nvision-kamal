@@ -27,3 +27,37 @@ php artisan serve
 ```bash
 php artisan queue:work
 ```
+
+
+
+
+## Stage 01
+
+
+```
+# Create order 
+"/api/orders"
+
+# Parameters 
+[Customer Name, Order Value]
+
+# Method
+POST
+
+# Headers
+Accept: Application/json,
+Authorization: Bearer <<Token>>
+
+# Create token 
+"/api/auth/token"
+
+# Parameters 
+[email, password, store_name]
+
+# Method
+POST
+```
+
+## Stage 02
+
+This is on landing page

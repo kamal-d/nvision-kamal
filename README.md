@@ -58,6 +58,6 @@ Authorization: Bearer <<Token>>
 POST
 ```
 
-## Stage 02
+## Stage 03
 
 This is on landing page
